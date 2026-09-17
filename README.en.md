@@ -1,4 +1,4 @@
-# Yu Jun Skill · Product Judgment
+# Product Judgment
 
 **Judge the demand before writing the PRD.**
 
@@ -22,7 +22,7 @@ Many projects fail not because they cannot be built, but because nobody answered
 - Does the new experience outweigh the old experience and switching cost?
 - Is the evidence strong enough for the resource commitment?
 
-Yu Jun Skill moves these questions in front of the roadmap, PRD, and engineering work.
+Product Judgment moves these questions in front of the roadmap, PRD, and engineering work.
 
 ---
 
@@ -201,7 +201,7 @@ See [`references/yu-jun-methodology.md`](references/yu-jun-methodology.md) for t
 
 When the demand is valid and the problem becomes “which layer should own this badcase?”, use:
 
-**[Principled Simplicity · 大道至简 Skill](https://github.com/Longfellow1/principled-simplicity)**  
+**[Principled Simplicity · 大道至简](https://github.com/Longfellow1/principled-simplicity)**  
 *Fix the layer, not the case.*
 
 ---
