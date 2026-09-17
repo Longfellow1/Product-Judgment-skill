@@ -1,5 +1,9 @@
 # 产品判断 · Product Judgment
 
+<p align="center">
+  <img src="./assets/hero.webp" alt="产品判断 · Product Judgment" width="100%">
+</p>
+
 **先判断需求，再写 PRD。**
 
 把《俞军产品方法论》中的核心产品判断方法，转化成 Agent 可以直接执行的需求评审流程。
@@ -161,8 +165,8 @@ Skill 会先判断阻力来自证据、表达、资源还是方向本身，再�
 ## 安装与使用
 
 ```bash
-git clone https://github.com/Longfellow1/Yujun-skill.git
-cd Yujun-skill
+git clone https://github.com/Longfellow1/Product-judgment-skill.git
+cd Product-judgment-skill
 ```
 
 核心 Skill 文件是 [`SKILL.md`](SKILL.md)。可用于 Claude Code、Codex 或其他支持 Skill / 系统指令注入的 Agent 工作流。
@@ -170,10 +174,12 @@ cd Yujun-skill
 仓库同时提供：
 
 ```text
-Yujun-skill/
+Product-judgment-skill/
 ├── SKILL.md                 # 核心 Agent Skill
 ├── README.md
 ├── README.en.md
+├── assets/
+│   └── hero.webp            # README 头图
 ├── references/              # 俞军方法论、需求病型、用户价值公式
 ├── examples/                # 完整评审案例
 ├── scripts/
