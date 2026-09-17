@@ -1,5 +1,9 @@
 # Product Judgment
 
+<p align="center">
+  <img src="./assets/hero.webp" alt="Product Judgment" width="100%">
+</p>
+
 **Judge the demand before writing the PRD.**
 
 This skill turns core ideas from *Yu Jun's Product Methodology* into an executable demand-review workflow for AI agents.
@@ -161,8 +165,8 @@ The skill first identifies whether the resistance comes from evidence, communica
 ## Install and use
 
 ```bash
-git clone https://github.com/Longfellow1/Yujun-skill.git
-cd Yujun-skill
+git clone https://github.com/Longfellow1/Product-judgment-skill.git
+cd Product-judgment-skill
 ```
 
 The core skill is [`SKILL.md`](SKILL.md). It can be used with Claude Code, Codex, or other agent workflows that support reusable skills or system-instruction injection.
@@ -170,10 +174,12 @@ The core skill is [`SKILL.md`](SKILL.md). It can be used with Claude Code, Codex
 Repository structure:
 
 ```text
-Yujun-skill/
+Product-judgment-skill/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
+├── assets/
+│   └── hero.webp
 ├── references/
 ├── examples/
 ├── scripts/
