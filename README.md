@@ -1,4 +1,4 @@
-# 俞军 Skill · Product Judgment
+# 产品判断 · Product Judgment
 
 **先判断需求，再写 PRD。**
 
@@ -22,7 +22,7 @@ AI 让 PRD、原型和代码都变得更便宜，但**错误需求也因此更�
 - 新体验是否真的大于旧体验与替换成本？
 - 当前证据是否配得上要投入的资源？
 
-俞军 Skill 把这些问题前置，在需求进入 Roadmap、PRD 和工程开发之前做一次结构化判断。
+Product Judgment 把这些问题前置，在需求进入 Roadmap、PRD 和工程开发之前做一次结构化判断。
 
 ---
 
@@ -201,7 +201,7 @@ Yujun-skill/
 
 如果需求已经成立，真正的问题变成了“这个 badcase 到底应该在哪一层修”，可以使用：
 
-**[大道至简 Skill · Principled Simplicity](https://github.com/Longfellow1/principled-simplicity)**  
+**[大道至简 · Principled Simplicity](https://github.com/Longfellow1/principled-simplicity)**  
 *Fix the layer, not the case.*
 
 ---
