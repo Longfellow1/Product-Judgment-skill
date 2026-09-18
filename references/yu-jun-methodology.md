@@ -1,7 +1,10 @@
 # 俞军产品方法论 / Yu Jun's Product Methodology
 
-受《俞军产品方法论》启发整理，用于加强需求判断的理论基础。
-Inspired by Yu Jun's book and public writings, used as theoretical grounding for demand judgment.
+受《俞军产品方法论》及相关公开产品思想启发整理，用于加强需求判断的理论基础。
+Inspired by *Yu Jun's Product Methodology* and related public product thinking, used as theoretical grounding for demand judgment.
+
+> **说明 / Note:** 本文件是本项目的学习笔记与二次整理，不是原书摘要，也不应视为逐字引文；本项目与俞军本人及出版社无授权、隶属或背书关系。  
+> This file contains project-side study notes and paraphrased synthesis. It is not a book summary or a source of verbatim quotations, and the project is not affiliated with, authorized by, or endorsed by Yu Jun or the publisher.
 
 俞军，百度第一位产品经理，百度贴吧、百度知道缔造者。其方法论将微观经济学与心理学融合进产品实践，是中文互联网产品思维的底层框架之一。
 Yu Jun was Baidu's first product manager, creator of Baidu Tieba and Baidu Zhidao. His methodology integrates microeconomics and psychology into product practice.
@@ -247,10 +250,10 @@ Based on Yu Jun's methodology, demand judgment must answer:
 
 ---
 
-## 七、俞军核心观点摘要 / Key Quotes and Positions
+## 七、方法要点的项目侧归纳 / Project Notes on Key Ideas
 
-以下为俞军公开表达过的核心观点，供需求判断时参考。
-Public positions from Yu Jun, for reference in demand judgment.
+以下内容是本项目对书中及相关公开产品思想的归纳与转述，供需求判断时参考；**不是逐字引文**。如需引用原话，请回到原书或可核验的公开出处。
+The notes below are project-side paraphrases and synthesis for demand judgment; **they are not verbatim quotations**. For exact wording, consult the book or another verifiable primary source.
 
 **关于用户研究 / On user research:**
 研究用户行为，不是用户说法。用户说的和用户做的往往不一样。
