@@ -1,5 +1,8 @@
 # 用户价值公式 / User Value Equation
 
+> **说明 / Note:** 本文件围绕用户价值公式做应用化展开；其中的案例、检查项和评审方式由本项目整理，并非原书逐字内容。  
+> This file operationalizes the user-value equation for practical review. Its examples, checks, and review mechanics are project-side synthesis rather than verbatim book content.
+
 ```
 用户价值 = 新体验 - 旧体验 - 替换成本
 User Value = New Experience - Old Experience - Replacement Cost
