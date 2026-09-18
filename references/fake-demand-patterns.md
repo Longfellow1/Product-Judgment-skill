@@ -2,6 +2,9 @@
 
 A taxonomy of fake demand types. Use this to name the disease in Strike 1.
 
+> **说明 / Note:** 以下“病型”是本 Skill 为需求评审整理的操作性标签，用来帮助识别反复出现的伪需求模式；它们**不是《俞军产品方法论》的原书术语**。  
+> These labels are operational patterns created for this Skill. They are **not terminology taken from Yu Jun's book**.
+
 ---
 
 ## 病型一：竞品焦虑症 Competitor Anxiety Syndrome
