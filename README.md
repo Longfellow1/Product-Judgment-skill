@@ -195,7 +195,7 @@ Product-judgment-skill/
 
 本 Skill **基于《俞军产品方法论》及相关公开产品思想中的核心方法**，重点包括用户模型、用户价值、交易模型与产品决策，并由本项目重新整理为适用于 AI Agent 的可执行流程。
 
-感谢俞军老师及其同事分享了这么精彩、好用的产品方法论，让我们在做产品设计、取舍时有良好的依据。
+感谢俞军老师及其同事分享了这么精彩、好用的产品方法论，让我们在做产品设计以及取舍时有良好的依据。
 
 这不是对书本的摘要，也不是原文复刻；它是一套面向实际需求评审的 Agent 化实现。
 
@@ -207,7 +207,7 @@ Product-judgment-skill/
 
 ## 相关 Skill
 
-如果需求已经成立，真正的问题变成了“这个 badcase 到底应该在哪一层修”，可以使用：
+如果需求成立且转入到开发当中，AI Coding解决问题容易变成“拿着锤子找钉子”、“疯狂叠加修复补丁”、以及产生“这个 badcase 到底应该在哪一层修”的疑问，推荐看看：
 
 **[大道至简 · Principled Simplicity](https://github.com/Longfellow1/principled-simplicity)**  
 *Fix the layer, not the case.*
