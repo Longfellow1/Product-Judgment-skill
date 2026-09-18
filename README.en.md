@@ -6,9 +6,9 @@
 
 **Judge the demand before writing the PRD.**
 
-This skill turns core ideas from *Yu Jun's Product Methodology* into an executable demand-review workflow for AI agents.
+I turned the core product-judgment methods from *Yu Jun's Product Methodology* into a demand-review workflow that an agent can execute directly.
 
-It does not exist to make an idea sound more complete. It exists to answer a harder question first: **does this demand deserve to be built?**
+At its core is one question: **is this demand actually worth building?**
 
 [中文](README.md) · [SKILL.md](SKILL.md) · [Examples](examples/) · [Methodology](references/yu-jun-methodology.md)
 
@@ -16,7 +16,7 @@ It does not exist to make an idea sound more complete. It exists to answer a har
 
 ## Why this exists
 
-AI makes PRDs, prototypes, and code cheaper. It also makes **bad demand cheaper to implement**.
+AI makes PRDs, prototypes, and code cheaper. But it also makes **fake demand easier to ship fast**.
 
 Many projects fail not because they cannot be built, but because nobody answered these questions early enough:
 
@@ -165,8 +165,8 @@ The skill first identifies whether the resistance comes from evidence, communica
 ## Install and use
 
 ```bash
-git clone https://github.com/Longfellow1/Product-judgment-skill.git
-cd Product-judgment-skill
+git clone https://github.com/Longfellow1/Product-Judgment-skill.git
+cd Product-Judgment-skill
 ```
 
 The core skill is [`SKILL.md`](SKILL.md). It can be used with Claude Code, Codex, or other agent workflows that support reusable skills or system-instruction injection.
@@ -174,7 +174,7 @@ The core skill is [`SKILL.md`](SKILL.md). It can be used with Claude Code, Codex
 Repository structure:
 
 ```text
-Product-judgment-skill/
+Product-Judgment-skill/
 ├── SKILL.md
 ├── README.md
 ├── README.en.md
@@ -193,9 +193,11 @@ Product-judgment-skill/
 
 ## Method source and attribution
 
-This skill is **inspired by core ideas from *Yu Jun's Product Methodology* and related public product thinking**, especially the user model, user value, transaction model, and product decision-making.
+This skill is **based on core ideas from *Yu Jun's Product Methodology* and related public product thinking**, especially the user model, user value, transaction model, and product decision-making, reorganized here into an executable workflow for AI agents.
 
-It is not a summary of the book and does not reproduce the original text. It is an independent implementation that reorganizes those ideas into an executable agent workflow for practical demand review.
+Thanks to Yu Jun and his colleagues for sharing a product methodology that is practical enough to serve as a real basis for product design and trade-offs.
+
+This is not a summary of the book and does not reproduce the original text. It is an independent implementation for practical demand review.
 
 **This is an unofficial project and is not affiliated with, authorized by, or endorsed by Yu Jun.**
 
@@ -205,9 +207,9 @@ See [`references/yu-jun-methodology.md`](references/yu-jun-methodology.md) for t
 
 ## Companion skill
 
-When the demand is valid and the problem becomes “which layer should own this badcase?”, use:
+Once the demand is valid and development begins, AI coding can easily turn into “everything looks like a nail”: patches accumulate, fixes spread, and the real question becomes which layer should own the badcase. Take a look at:
 
-**[Principled Simplicity · 大道至简](https://github.com/Longfellow1/principled-simplicity)**  
+**[Principled Simplicity · 大道至简](https://github.com/Longfellow1/Principled-Simplicity-skill)**  
 *Fix the layer, not the case.*
 
 ---
