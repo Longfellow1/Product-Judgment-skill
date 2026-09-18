@@ -6,9 +6,9 @@
 
 **先判断需求，再写 PRD。**
 
-把《俞军产品方法论》中的核心产品判断方法，转化成 Agent 可以直接执行的需求评审流程。
+我把《俞军产品方法论》中的核心产品判断方法，转化成了 Agent 可以直接执行的需求评审流程。
 
-它不负责把一个想法包装得更完整，而是先回答一个更重要的问题：**这个需求到底值不值得做？**
+核心是回答一个问题：**这个需求到底值不值得做？**
 
 [English](README.en.md) · [SKILL.md](SKILL.md) · [Examples](examples/) · [Methodology](references/yu-jun-methodology.md)
 
