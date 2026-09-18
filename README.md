@@ -165,8 +165,8 @@ Skill 会先判断阻力来自证据、表达、资源还是方向本身，再�
 ## 安装与使用
 
 ```bash
-git clone https://github.com/Longfellow1/Product-judgment-skill.git
-cd Product-judgment-skill
+git clone https://github.com/Longfellow1/Product-Judgment-skill.git
+cd Product-Judgment-skill
 ```
 
 核心 Skill 文件是 [`SKILL.md`](SKILL.md)。可用于 Claude Code、Codex 或其他支持 Skill / 系统指令注入的 Agent 工作流。
@@ -174,7 +174,7 @@ cd Product-judgment-skill
 仓库同时提供：
 
 ```text
-Product-judgment-skill/
+Product-Judgment-skill/
 ├── SKILL.md                 # 核心 Agent Skill
 ├── README.md
 ├── README.en.md
@@ -209,7 +209,7 @@ Product-judgment-skill/
 
 如果需求成立且转入到开发当中，AI Coding解决问题容易变成“拿着锤子找钉子”、“疯狂叠加修复补丁”、以及产生“这个 badcase 到底应该在哪一层修”的疑问，推荐看看：
 
-**[大道至简 · Principled Simplicity](https://github.com/Longfellow1/principled-simplicity)**  
+**[大道至简 · Principled Simplicity](https://github.com/Longfellow1/Principled-Simplicity-skill)**  
 *Fix the layer, not the case.*
 
 ---
