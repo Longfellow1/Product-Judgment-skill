@@ -14,6 +14,21 @@
 
 ---
 
+## 一键安装
+
+功能开发前，先判断需求是否真实、证据是否充分、是否值得投入。
+
+```bash
+npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment
+```
+
+> Skill ID：`product-judgment`（与 GitHub 仓库名不同）。需要 Node.js/npm；CLI 直接从 GitHub 安装，无需发布 npm 包。
+
+[![skills.sh](https://skills.sh/b/Longfellow1/Product-Judgment-skill)](https://skills.sh/Longfellow1/Product-Judgment-skill)
+
+**安装后试试：** “竞品上线了 AI 搜索，我们要跟进吗？请先审查证据，判断应该做、验证还是放弃。”
+
+
 ## 为什么需要它
 
 AI 让 PRD、原型和代码都变得更便宜，但**伪需求也因此更容易被快速实现**。
@@ -165,6 +180,9 @@ Skill 会先判断阻力来自证据、表达、资源还是方向本身，再�
 ## 安装与使用
 
 ```bash
+npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment
+
+# Optional: clone the full source repository
 git clone https://github.com/Longfellow1/Product-Judgment-skill.git
 cd Product-Judgment-skill
 ```
