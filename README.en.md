@@ -14,6 +14,21 @@ At its core is one question: **is this demand actually worth building?**
 
 ---
 
+## Install in one command
+
+Before writing another PRD, test whether the user problem is real, the evidence is credible, and the feature is worth building.
+
+```bash
+npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment
+```
+
+> The skill ID is `product-judgment` (the GitHub repository name is different). Requires Node.js/npm; the CLI fetches the skill directly from GitHub. No npm publishing required.
+
+[![skills.sh](https://skills.sh/b/Longfellow1/Product-Judgment-skill)](https://skills.sh/Longfellow1/Product-Judgment-skill)
+
+**Try it:** "Our competitor launched AI search. Should we add it? Challenge the evidence and issue a build / validate / reject verdict."
+
+
 ## Why this exists
 
 AI makes PRDs, prototypes, and code cheaper. But it also makes **fake demand easier to ship fast**.
@@ -165,6 +180,9 @@ The skill first identifies whether the resistance comes from evidence, communica
 ## Install and use
 
 ```bash
+npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment
+
+# Optional: clone the full source repository
 git clone https://github.com/Longfellow1/Product-Judgment-skill.git
 cd Product-Judgment-skill
 ```
