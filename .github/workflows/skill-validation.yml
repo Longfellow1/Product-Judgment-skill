@@ -22,6 +22,7 @@ jobs:
           meta = match.group(1)
           assert re.search(r'^name:\s*product-judgment\s*$', meta, re.M), 'Unexpected skill name'
           assert re.search(r'^description:\s*\S', meta, re.M), 'Skill description required'
+          assert Path('LICENSE').is_file() and 'Apache License' in Path('LICENSE').read_text(encoding='utf-8'), 'LICENSE (Apache-2.0) required'
           for fname in ('README.md', 'README.en.md'):
               readme = Path(fname).read_text(encoding='utf-8')
               assert 'npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment' in readme

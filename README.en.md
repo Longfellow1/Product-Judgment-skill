@@ -1,7 +1,7 @@
 # Product Judgment
 
 <p align="center">
-  <img src="./assets/hero.webp" alt="Product Judgment" width="100%">
+  <img src="./assets/hero.webp" alt="Product Judgment hero banner: the title beside a black-and-white photo of a rock on a pale background, with the line “An agent implementation inspired by Yu Jun’s Product Methodology”" width="100%">
 </p>
 
 **Judge the demand before writing the PRD.**
@@ -9,6 +9,8 @@
 I turned the core product-judgment methods from *Yu Jun's Product Methodology* into a demand-review workflow that an agent can execute directly.
 
 At its core is one question: **is this demand actually worth building?**
+
+It is an agent skill (`SKILL.md`) for product managers and AI agents to review a product idea, feature request, or requirement before writing the PRD. Install it with `npx skills add` (command below); it can be used with Claude Code, Codex, or other agent workflows that support skills.
 
 [中文](README.md) · [SKILL.md](SKILL.md) · [Examples](examples/) · [Methodology](references/yu-jun-methodology.md)
 
@@ -24,7 +26,7 @@ npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment
 
 > The skill ID is `product-judgment` (the GitHub repository name is different). Requires Node.js/npm; the CLI fetches the skill directly from GitHub. No npm publishing required.
 
-[![skills.sh](https://skills.sh/b/Longfellow1/Product-Judgment-skill)](https://skills.sh/Longfellow1/Product-Judgment-skill)
+[![skills.sh page for product-judgment](https://skills.sh/b/Longfellow1/Product-Judgment-skill)](https://skills.sh/Longfellow1/Product-Judgment-skill)
 
 **Try it:** "Our competitor launched AI search. Should we add it? Challenge the evidence and issue a build / validate / reject verdict."
 
@@ -234,4 +236,8 @@ Once the demand is valid and development begins, AI coding can easily turn into 
 
 ## License
 
-Apache-2.0
+Apache-2.0 · [LICENSE](LICENSE)
+
+---
+
+More from the author: [KeyPulse](https://github.com/Longfellow1/keypulse) (local memory layer for AI agents over MCP) · [CorpusFlow](https://github.com/Longfellow1/CorpusFlow) (corpus workbench for LLM fine-tuning and eval data)
