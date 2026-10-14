@@ -237,3 +237,7 @@ Product-Judgment-skill/
 ## License
 
 Apache-2.0 · [LICENSE](LICENSE)
+
+---
+
+作者的其他项目：[KeyPulse](https://github.com/Longfellow1/keypulse)（面向 AI Agent、经 MCP 提供的本地记忆层）· [CorpusFlow](https://github.com/Longfellow1/CorpusFlow)（面向 LLM 微调与评测数据的语料工作台）

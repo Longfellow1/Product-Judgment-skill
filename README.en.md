@@ -237,3 +237,7 @@ Once the demand is valid and development begins, AI coding can easily turn into 
 ## License
 
 Apache-2.0 · [LICENSE](LICENSE)
+
+---
+
+More from the author: [KeyPulse](https://github.com/Longfellow1/keypulse) (local memory layer for AI agents over MCP) · [CorpusFlow](https://github.com/Longfellow1/CorpusFlow) (corpus workbench for LLM fine-tuning and eval data)
