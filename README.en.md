@@ -234,4 +234,4 @@ Once the demand is valid and development begins, AI coding can easily turn into 
 
 ## License
 
-Apache-2.0
+Apache-2.0 · [LICENSE](LICENSE)
