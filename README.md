@@ -1,7 +1,7 @@
 # 产品判断 · Product Judgment
 
 <p align="center">
-  <img src="./assets/hero.webp" alt="产品判断 · Product Judgment" width="100%">
+  <img src="./assets/hero.webp" alt="产品判断 · Product Judgment 头图：浅色背景上的黑白岩石照片，配文“这个需求，值得做吗？”与“基于《俞军产品方法论》的 Agent 化实现”" width="100%">
 </p>
 
 **先判断需求，再写 PRD。**
@@ -9,6 +9,8 @@
 我把《俞军产品方法论》中的核心产品判断方法，转化成了 Agent 可以直接执行的需求评审流程。
 
 核心是回答一个问题：**这个需求到底值不值得做？**
+
+这是一个 Agent Skill（`SKILL.md`），供产品经理和 AI Agent 在写 PRD 之前评审需求或产品想法；通过 `npx skills add` 安装（命令见下方），可用于 Claude Code、Codex 或其他支持 Skill 的 Agent 工作流。
 
 [English](README.en.md) · [SKILL.md](SKILL.md) · [Examples](examples/) · [Methodology](references/yu-jun-methodology.md)
 
@@ -24,7 +26,7 @@ npx skills add Longfellow1/Product-Judgment-skill --skill product-judgment
 
 > Skill ID：`product-judgment`（与 GitHub 仓库名不同）。需要 Node.js/npm；CLI 直接从 GitHub 安装，无需发布 npm 包。
 
-[![skills.sh](https://skills.sh/b/Longfellow1/Product-Judgment-skill)](https://skills.sh/Longfellow1/Product-Judgment-skill)
+[![skills.sh：product-judgment 页面](https://skills.sh/b/Longfellow1/Product-Judgment-skill)](https://skills.sh/Longfellow1/Product-Judgment-skill)
 
 **安装后试试：** “竞品上线了 AI 搜索，我们要跟进吗？请先审查证据，判断应该做、验证还是放弃。”
 
